@@ -57,7 +57,7 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 
 git clone --single-branch --branch v2.1 https://invent.kde.org/maui/sol.git
 
-rm -rf sol/{android_files,macos_files,windows_files,examples,LICENSES,README.md}
+rm -rf sol/{CMakeLists.txt.user.f88106a}
 
 ### Compile Source
 
