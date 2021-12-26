@@ -46,8 +46,8 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	libkf5service-dev \
 	libqt5svg5-dev \
 	libqt5webview5-dev \
-	mauikit \
-	mauikit-filebrowsing \
+	mauikit-git \
+	mauikit-filebrowsing-git \
 	qtbase5-dev \
 	qtdeclarative5-dev \
 	qtquickcontrols2-5-dev \
@@ -93,8 +93,8 @@ make
 checkinstall -D -y \
 	--install=no \
 	--fstrans=yes \
-	--pkgname=sol \
-	--pkgversion=2.1.0 \
+	--pkgname=sol-git \
+	--pkgversion=2.1.0+git \
 	--pkgarch=amd64 \
 	--pkgrelease="1" \
 	--pkglicense=LGPL-3 \
@@ -103,7 +103,7 @@ checkinstall -D -y \
 	--pakdir=../.. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=sol \
-	--requires="libc6,libkf5coreaddons5,libkf5i18n5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5sql5,libqt5webengine5,libqt5widgets5,libstdc++6,mauikit \(\>= 2.1.0\),mauikit-filebrowsing \(\>= 2.1.0\),qml-module-qt-labs-platform,qml-module-qtwebview" \
+	--requires="libc6,libkf5coreaddons5,libkf5i18n5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5sql5,libqt5webengine5,libqt5widgets5,libstdc++6,mauikit-git \(\>= 2.1.1+git\),mauikit-filebrowsing-git \(\>= 2.1.1+git\),qml-module-qt-labs-platform,qml-module-qtwebview" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
