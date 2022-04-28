@@ -51,7 +51,11 @@ DEBIAN_FRONTEND=noninteractive apt -qq -yy install --no-install-recommends \
 	qtbase5-dev \
 	qtdeclarative5-dev \
 	qtquickcontrols2-5-dev \
-	qtwebengine5-dev
+	qtwebengine5-dev \
+	libwayland-dev \
+	qtwayland5 \
+	qtwayland5-dev-tools \
+	qtwayland5-private-dev
 
 ### Clone repo.
 
