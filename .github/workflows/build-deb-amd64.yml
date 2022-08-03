@@ -1,4 +1,4 @@
-name: Bonsai Deb
+name: Sol Deb
 
 on:
   workflow_dispatch:
