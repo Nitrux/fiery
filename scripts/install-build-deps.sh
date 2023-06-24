@@ -37,4 +37,5 @@ qtquickcontrols2-5-dev \
 qtwayland5 \
 qtwayland5-dev-tools \
 qtwayland5-private-dev \
-qtwebengine5-dev
+qtwebengine5-dev \
+qtwebengine5-private-dev
