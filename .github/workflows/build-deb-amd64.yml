@@ -3,7 +3,7 @@ name: Fiery Deb
 on:
   workflow_dispatch:
     inputs:
-      solBranch:
+      fieryBranch:
         description: 'Fiery Branch'
         required: true
         type: string
@@ -52,7 +52,7 @@ jobs:
         run: ./scripts/build-deb.sh
         env:
           PACKAGE_VERSION: ${{ inputs.packageVersion }}
-          FIERY_BRANCH: ${{ inputs.solBranch }}
+          FIERY_BRANCH: ${{ inputs.fieryBranch }}
 
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v3
