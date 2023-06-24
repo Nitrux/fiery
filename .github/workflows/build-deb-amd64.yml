@@ -1,10 +1,10 @@
-name: Sol Deb
+name: Fiery Deb
 
 on:
   workflow_dispatch:
     inputs:
       solBranch:
-        description: 'Sol Branch'
+        description: 'Fiery Branch'
         required: true
         type: string
       packageCloudRepo:
@@ -52,7 +52,7 @@ jobs:
         run: ./scripts/build-deb.sh
         env:
           PACKAGE_VERSION: ${{ inputs.packageVersion }}
-          SOL_BRANCH: ${{ inputs.solBranch }}
+          FIERY_BRANCH: ${{ inputs.solBranch }}
 
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v3

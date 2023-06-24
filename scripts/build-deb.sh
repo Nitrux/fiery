@@ -22,7 +22,7 @@ apt -qq -yy install --no-install-recommends \
 
 ### Download Source
 
-git clone --depth 1 --branch $SOL_BRANCH https://invent.kde.org/maui/sol.git
+git clone --depth 1 --branch $FIERY_BRANCH https://invent.kde.org/maui/sol.git
 
 ### Compile Source
 
@@ -69,7 +69,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=fiery \
-	--requires="libc6,libkf5coreaddons5,libkf5i18n5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5sql5,libqt5webengine5,libqt5widgets5,libstdc++6,mauikit-git \(\>= 2.2.2+git\),mauikit-filebrowsing-git \(\>= 2.2.2+git\),qml-module-qt-labs-platform,qml-module-qtwebview" \
+	--requires="libc6,libkf5coreaddons5,libkf5i18n5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5sql5,libqt5webengine5,libqt5widgets5,libstdc++6,mauikit-git \(\>= 3.0.0+git\),mauikit-filebrowsing-git \(\>= 3.0.0+git\),qml-module-qt-labs-platform,qml-module-qtwebview" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
