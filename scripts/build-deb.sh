@@ -69,7 +69,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=fiery \
-	--requires="mauikit-git \(\>= 4.0.1\),mauikit-filebrowsing-git \(\>= 4.0.1\)" \
+	--requires="libqt6webenginecore6,libqt6webenginecore6-bin,mauikit-git \(\>= 4.0.1\),mauikit-filebrowsing-git \(\>= 4.0.1\)" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
