@@ -22,7 +22,7 @@ apt -qq -yy install --no-install-recommends \
 
 ### Download Source
 
-git clone --depth 1 --branch $FIERY_BRANCH https://invent.kde.org/maui/sol.git
+git clone --depth 1 --branch $FIERY_BRANCH https://invent.kde.org/maui/maui-fiery.git
 
 ### Compile Source
 
