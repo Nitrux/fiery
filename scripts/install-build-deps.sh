@@ -65,7 +65,9 @@ $APT_COMMAND install -y - --no-install-recommends \
     qml-module-qtquick-shapes \
     qt6-base-dev \
     qt6-declarative-dev \
-    qt6-webengine-dev
+    qt6-pdf-dev \
+    qt6-webengine-dev \
+    qt6-webengine-private-dev
 
 
 # -- Add package from our repository.
