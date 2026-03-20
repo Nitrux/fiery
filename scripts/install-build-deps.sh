@@ -40,12 +40,15 @@ $APT_COMMAND install -y - --no-install-recommends \
     libkf6i18n-dev \
     libkf6kio-dev \
     libkf6notifications-dev \
+    libsecret-1-dev \
     lintian \
     qml-module-qtgraphicaleffects \
     qml-module-qtquick-controls2 \
     qml-module-qtquick-shapes \
     qt6-base-dev \
     qt6-declarative-dev \
+    qt6-declarative-dev-tools \
+    qt6-declarative-private-dev \
     qt6-pdf-dev \
     qt6-webengine-dev \
     qt6-webengine-private-dev
