@@ -11,7 +11,7 @@ set -e
 
 # -- Download Source
 
-git clone --depth 1 --branch "$FIERY_BRANCH" https://invent.kde.org/maui/maui-fiery.git
+git clone --depth 1 --branch "$FIERY_BRANCH" https://github.com/Nitrux/maui-fiery.git
 
 
 # -- Compile Source
@@ -63,7 +63,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=fiery \
-	--requires="kio-extras,libqt6pdf6,libqt6pdfquick6,libqt6pdfwidgets6,libqt6webenginecore6,libqt6webenginecore6-bin,libqt6webenginequick6,libqt6webenginewidgets6,mauikit \(\>= 4.0.2\),mauikit-filebrowsing \(\>= 4.0.2\),qml6-module-qtcore,qml6-module-qtquick-effects,qml6-module-qtquick-pdf,qml6-module-qtwebengine,qml6-module-qtwebengine-controlsdelegates" \
+	--requires="gir1.2-secret-1,kio-extras,libqt6pdf6,libqt6pdfquick6,libqt6pdfwidgets6,libqt6webenginecore6,libqt6webenginecore6-bin,libqt6webenginequick6,libqt6webenginewidgets6,libsecret-1-0,mauikit \(\>= 4.0.2\),mauikit-filebrowsing \(\>= 4.0.2\),qml6-module-qtcore,qml6-module-qtquick-effects,qml6-module-qtquick-pdf,qml6-module-qtwebengine,qml6-module-qtwebengine-controlsdelegates" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
