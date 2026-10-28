@@ -57,7 +57,7 @@ Priority: optional
 Architecture: ${TARGET_ARCH}
 Maintainer: uri_herrera@nxos.org
 Provides: fiery
-Depends: qml6-module-qtquick-controls,qml6-module-qtquick-layouts,libkf6i18n6,libkf6notifications6,libqt6core6t64,libqt6dbus6,libqt6network6,libqt6qml6,libqt6sql6,libqt6widgets6,kio-extras,libqt6pdf6,libqt6pdfquick6,libqt6pdfwidgets6,libqt6webenginecore6,libqt6webenginecore6-bin,libqt6webenginequick6,libqt6webenginewidgets6,mauikit-accounts (>= 4.0.4),mauikit (>= 4.0.4),mauikit-filebrowsing (>= 4.0.4),qml6-module-qtcore,qml6-module-qtquick-effects,qml6-module-qtquick-pdf,qml6-module-qtwebengine,qml6-module-qtwebengine-controlsdelegates
+Depends: qml6-module-qtquick-controls,qml6-module-qtquick-layouts,libkf6i18n6,libkf6notifications6,libqt6core6t64,libqt6dbus6,libqt6network6,libqt6qml6,libqt6sql6,libqt6widgets6,kio-extras,libqt6pdf6,libqt6pdfquick6,libqt6pdfwidgets6,libqt6webenginecore6,libqt6webenginecore6-bin,libqt6webenginequick6,libqt6webenginewidgets6,mauikit-accounts (>= 4.0.5),mauikit (>= 4.0.5),mauikit-filebrowsing (>= 4.0.5),qml6-module-qtcore,qml6-module-qtquick-effects,qml6-module-qtquick-pdf,qml6-module-qtwebengine,qml6-module-qtwebengine-controlsdelegates
 Description: fiery
  fiery
 CONTROL
